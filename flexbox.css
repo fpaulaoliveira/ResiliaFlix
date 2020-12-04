@@ -1,0 +1,90 @@
+
+header{
+    padding: 10px;
+    background:black;
+
+}
+
+h1
+{
+    color: #ffd369;
+    display:inline;
+    box-sizing: border-box;
+    
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    Position: fixed;
+    bottom: 0;
+ 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* A tag <ul> no cabeçalho */
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-left:850px;*/ 
+}
+
+/* A tag <li> no cabeçalho (itens do menu)*/
+.itens {
+    padding: 10px;
+    border: 2px;
+    color: black;
+    border-radius: 10px;
+    transition: .5s;
+    background-color: #ffd369;
+}
+
+.itens
+{
+    margin-left:30px;rodapePrincipal
+    display:flex;
+}
+
+.itens a{
+    text-decoration:none;
+    text-transform: capitalize;
+    color: black;
+}
+
+.itens a:hover{
+    /*color:yellow;*/
+    font-weight: bold;
+}
+
+.rodapePrincipal .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: 5%;
+
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}

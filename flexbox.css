@@ -1,24 +1,67 @@
+@media (min-width: 400px) {
+    .poster{
+        width: 150px;
+    }
+}
+
+
+@media (min-width: 700px) {
+    .poster{
+        width: 230px;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .poster{
+        width: 420px;
+    }
+}
+
+
+
 
 header{
     padding: 10px;
     background:black;
-
 }
+
+
 
 h1
 {
-    color: #ffd369;
+    color: #fad000;
     display:inline;
     box-sizing: border-box;
     
 }
 
+
+/* Area Filmes*/
+
+#Filmes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#Filmes > div{
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+
+
 footer {
-    width: 100%;
-    background-color: white;
-    Position: fixed;
-    bottom: 0;
- 
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.box.icons a{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
 }
 
 .container{
@@ -47,7 +90,7 @@ footer {
     color: black;
     border-radius: 10px;
     transition: .5s;
-    background-color: #ffd369;
+    background-color: #fad000;
 }
 
 .itens
